@@ -15,17 +15,17 @@ A terminal-based Markdown viewer with syntax highlighting and pagination.
 
 ## Origin Story: 
 
-I saw that there was a video about vibe coding a Markdown Viewer from Google, and wanted to see if I could replicate it—without even WATCHING the video. 
+I saw there was a video about vibe coding a Markdown Viewer from Google, and wanted to see if I could replicate it—without even WATCHING the video. 
 
 1) I handed the URL to Gemini, and had it generate a summary of the transcript as a Markdown file outlining the project. 
 
-2) I put that file in a folder, opened VS Code and Gemini CLI, and told it to build the project from the description in that Markdown summary of the video. 
+2) I put that file in a folder, opened VS Code, then Gemini CLI inside that folder, and told GCLI to build the project from the description in that Markdown summary of Google's own vibe-coding video. 
 
  3) In 90 seconds, I had a version that could render Markdown in the Terminal—but no colors. Gemini eventually gave up ("If this does not work, I have exhausted all my diagnostic capabilities and I will not be able to solve this problem."). 
 
 4) Claude Code spotted the error in one conversational turn, though. There was some wrangling between the paging system, less, and rich on my system, but Claude crushed those bugs and it just worked. 
 
-I wrote 0 lines of code, <300 words of English, and copy/pasted some bash commands for testing. That's all. 
+I wrote 0 lines of code, <300 words of English, and copy/pasted some bash commands for testing. That's all. Call it "vibe-coding-once-removed", I guess. 
 
 "The future is already here—it's just not evenly distributed." -- William Gibson
 
